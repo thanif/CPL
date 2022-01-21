@@ -7,3 +7,5 @@ neural network in multi-task learning framework. We estimate the desired paramet
 for the estimation of camera parameters. We also proposed a novel dataset using CARLA Simulator. Empirically, we demonstrate that our proposed approach achieves better performance with respect to both deep learning-based and traditional methods on 7 out of 10 parameters evaluated using both synthetic and real data.
 
 MTL-CPL-A weights and logs: https://drive.google.com/drive/folders/16zR4Hn21VIgREbCr3AQlAAGMB6rT5rdw?usp=sharing
+
+Deep-Homo and Average: https://drive.google.com/drive/folders/1lrl1ccWgqRyb41rtZOW7CiL0DRA4SsF-?usp=sharing
