@@ -21,3 +21,7 @@ MTL-CPL-U: https://drive.google.com/drive/folders/1m1UHBzman_XJuF45HLeBHw1R3pbwd
 Format used for experiments: https://drive.google.com/drive/folders/1ScuaGjZSXslYPkFzGJMLzTze5QScvMKA?usp=sharing
 
 Tsinghua-Daimler Dataset (Real Dataset): http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html
+
+# Citation
+
+Butt, Talha Hanif, and Murtaza Taj. "Camera Calibration through Camera Projection Loss." arXiv preprint arXiv:2110.03479 (2021).
