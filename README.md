@@ -22,6 +22,12 @@ Format used for experiments: https://drive.google.com/drive/folders/1ScuaGjZSXsl
 
 Tsinghua-Daimler Dataset (Real Dataset): http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html
 
+Some rellated articles are as follows:
+
+How I got my MS Thesis Idea: https://thanifbutt.medium.com/how-i-got-my-thesis-idea-b64160a04d47
+
+FAST-LUMS Camera Calibration Dataset: https://thanifbutt.medium.com/fast-lums-camera-calibration-dataset-98363918fcf6
+
 # Citation
 
 ```
