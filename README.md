@@ -24,7 +24,6 @@ Tsinghua-Daimler Dataset (Real Dataset): http://www.gavrila.net/Datasets/Daimler
 
 # Citation
 
-## Citation
 ```
 @article{butt2021camera,
   title={Camera Calibration through Camera Projection Loss},
