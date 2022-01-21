@@ -7,10 +7,10 @@ import numpy as np
 import random
 import tensorflow as tf
 from PIL import Image, ImageOps
-import tensorflow.keras as keras
-from tensorflow.keras.preprocessing.image import Iterator
+import keras
+from keras.preprocessing.image import Iterator
 from keras.utils.np_utils import to_categorical
-import tensorflow.keras.backend as K
+import keras.backend as K
 import multiprocessing
 IMAGE_WIDTH = 112
 IMAGE_HEIGHT = 112
