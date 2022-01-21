@@ -24,4 +24,9 @@ Tsinghua-Daimler Dataset (Real Dataset): http://www.gavrila.net/Datasets/Daimler
 
 # Citation
 
-Butt, Talha Hanif, and Murtaza Taj. "Camera Calibration through Camera Projection Loss." arXiv preprint arXiv:2110.03479 (2021).
+@article{butt2021camera,
+  title={Camera Calibration through Camera Projection Loss},
+  author={Butt, Talha Hanif and Taj, Murtaza},
+  journal={arXiv preprint arXiv:2110.03479},
+  year={2021}
+}
