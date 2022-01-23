@@ -9,7 +9,7 @@ for the estimation of camera parameters. We also proposed a novel dataset using 
 # Code
 
 Each model has been trained on the CVGL Camera Calibration Dataset while Tsinghua-Daimler Dataset has been used only for testing. 
-Each folder contains 2 ipython notebooks, one for FAST-LUMS Dataset while the other for Tsinghua-Daimler Dataset.
+Each folder contains 2 ipython notebooks, one for CVGL Dataset while the other for Tsinghua-Daimler Dataset.
 
 # Weights and Logs
 
@@ -31,7 +31,7 @@ Some related articles are as follows:
 
 How I got my MS Thesis Idea: https://thanifbutt.medium.com/how-i-got-my-thesis-idea-b64160a04d47
 
-FAST-LUMS Camera Calibration Dataset: https://thanifbutt.medium.com/fast-lums-camera-calibration-dataset-98363918fcf6
+CVGL Camera Calibration Dataset: https://thanifbutt.medium.com/fast-lums-camera-calibration-dataset-98363918fcf6
 
 # Citation
 
