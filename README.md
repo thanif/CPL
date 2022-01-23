@@ -8,7 +8,7 @@ for the estimation of camera parameters. We also proposed a novel dataset using 
 
 # Code
 
-Each model has been trained on the FAST-LUMS Camera Calibration Dataset while Tsinghua-Daimler Dataset has been used only for testing. 
+Each model has been trained on the CVGL Camera Calibration Dataset while Tsinghua-Daimler Dataset has been used only for testing. 
 Each folder contains 2 ipython notebooks, one for FAST-LUMS Dataset while the other for Tsinghua-Daimler Dataset.
 
 # Weights and Logs
