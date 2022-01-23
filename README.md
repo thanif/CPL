@@ -8,6 +8,8 @@ for the estimation of camera parameters. We also proposed a novel dataset using 
 
 # Code
 
+normalization_values.ipynb contains the normalization values used for evaluation.
+
 Each model has been trained on the CVGL Camera Calibration Dataset while Tsinghua-Daimler Dataset has been used only for testing. 
 Each folder contains 2 ipython notebooks, one for CVGL Dataset while the other for Tsinghua-Daimler Dataset.
 
