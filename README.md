@@ -12,7 +12,7 @@ Data_Preparation/data_preparation.ipynb converts the actual data into npy format
 
 Data_Preparation/normalization_values.ipynb contains the normalization values used for evaluation.
 
-Each model has been trained on the CVGL Camera Calibration Dataset while Tsinghua-Daimler Dataset has been used only for testing. 
+Each model has been trained on the CVGL Camera Calibration Dataset while Tsinghua-Daimler Dataset (Real) has been used only for testing. 
 Each folder contains 2 ipython notebooks, one for CVGL Dataset while the other for Tsinghua-Daimler Dataset.
 
 # Weights and Logs
