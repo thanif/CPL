@@ -34,7 +34,7 @@ Tsinghua-Daimler Dataset (Real Dataset): http://www.gavrila.net/Datasets/Daimler
 # Results
 
 <div align="center">
-    <img src="Results/results.png" width="400px"</img> 
+    <img src="Results/results.png" </img> 
 </div>
 
 Some related articles are as follows:
