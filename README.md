@@ -8,6 +8,8 @@ for the estimation of camera parameters. We also proposed a novel dataset using 
 
 # Code
 
+Data_Preparation/data_preparation.ipynb converts the actual data into npy format used for experiments.
+
 normalization_values.ipynb contains the normalization values used for evaluation.
 
 Each model has been trained on the CVGL Camera Calibration Dataset while Tsinghua-Daimler Dataset has been used only for testing. 
