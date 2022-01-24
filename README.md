@@ -43,6 +43,8 @@ How I got my MS Thesis Idea: https://thanifbutt.medium.com/how-i-got-my-thesis-i
 
 CVGL Camera Calibration Dataset: https://thanifbutt.medium.com/fast-lums-camera-calibration-dataset-98363918fcf6
 
+Camera Calibration through Camera Projection Loss: https://thanifbutt.medium.com/camera-calibration-through-camera-projection-loss-e704ae6dbb29
+
 # Citation
 
 ```
