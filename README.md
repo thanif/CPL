@@ -39,7 +39,39 @@ The dataset has been collected using the CARLA Simulator gear server avaialble h
 
 The data collector used is availale here: https://github.com/carla-simulator/data-collector
 
-The dataset consists of 48 camera configurations with each town having 24 configurations. The parameters modified for generating the configurations include  $fov$, $x$, $y$, $z$, pitch, yaw, and roll. Here, $fov$ is the field of view, (x, y, z) is the translation while (pitch, yaw, and roll) is the rotation between the cameras. The total number of image pairs is $79,320$, out of which $18,083$ belong to Town 1 while $61,237$ belong to Town 2, the difference in the number of images is due to the length of the tracks.
+The dataset consists of 48 camera configurations with each town having 24 configurations. The parameters modified for generating the configurations include fov, x, y, z, pitch, yaw, and roll. Here, fov is the field of view, (x, y, z) is the translation while (pitch, yaw, and roll) is the rotation between the cameras. The total number of image pairs is 79,320, out of which 18,083 belong to Town 1 while 61,237 belong to Town 2, the difference in the number of images is due to the length of the tracks.
+
+For each episode, there is a file named params.txt containing the following parameters: fov, x, y, z, pitch, yaw, roll.
+
+Focal Length is computed as follows: img_size[0]/(2*np.tan(fov*np.pi/360))
+
+U0 and V0 are computed as: img_size[0]/2
+
+Baseline is equal to the translation in x-axis.
+
+Disparity value is computed using the following:
+
+stereo = cv2.StereoBM_create(numDisparities=16, blockSize=15)
+
+disparity_map = stereo.compute(l_im, r_im)
+
+disparity_value = np.mean(disparity_map)
+
+xcam, ycam, zcam are computed as follows:
+
+xcam = (focal_length * x) / disparity_value
+ 
+ycam = - (xcam / focal_length) * (5 - center_x)
+                
+zcam = (xcam / focal_length) * (center_y - 5)
+
+xworld, yworld, zworld are computed as follows:
+
+yWorld = ycam + y
+
+xWorld = xcam * math.cos(p) + zcam*math.sin(p) + x
+
+zWorld = - xcam * math.sin(p) + zcam*math.cos(p) + z
 
 # Results
 
