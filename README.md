@@ -27,9 +27,9 @@ MTL-CPL-U: https://drive.google.com/drive/folders/1m1UHBzman_XJuF45HLeBHw1R3pbwd
 
 # Datasets
 
-CVGL Camera Callibration Dataset without preprocessing: https://drive.google.com/drive/folders/11e0n1_W59PisKjmED3Ma6MKL8sJWinGZ?usp=sharing
+CVGL Camera Calibration Dataset without preprocessing: https://drive.google.com/drive/folders/11e0n1_W59PisKjmED3Ma6MKL8sJWinGZ?usp=sharing
 
-CVGL Camera Callibration Dataset format used for experiments: https://drive.google.com/drive/folders/1ScuaGjZSXslYPkFzGJMLzTze5QScvMKA?usp=sharing
+CVGL Camera Calibration Dataset format used for experiments: https://drive.google.com/drive/folders/1ScuaGjZSXslYPkFzGJMLzTze5QScvMKA?usp=sharing
 
 Tsinghua-Daimler Dataset (Real Dataset): http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html
 
