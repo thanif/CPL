@@ -33,6 +33,14 @@ CVGL Camera Calibration Dataset format used for experiments: https://drive.googl
 
 Tsinghua-Daimler Dataset (Real Dataset): http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html
 
+# CVGL Camera Calibration Dataset
+
+The dataset has been collected using the CARLA Simulator gear server avaialble here: https://drive.google.com/file/d/1X52PXqT0phEi5WEWAISAQYZs-Ivx4VoE/view
+
+The data collector used is availale here: https://github.com/carla-simulator/data-collector
+
+The dataset consists of 48 camera configurations with each town having 24 configurations. The parameters modified for generating the configurations include  $fov$, $x$, $y$, $z$, pitch, yaw, and roll. Here, $fov$ is the field of view, (x, y, z) is the translation while (pitch, yaw, and roll) is the rotation between the cameras. The total number of image pairs is $79,320$, out of which $18,083$ belong to Town 1 while $61,237$ belong to Town 2, the difference in the number of images is due to the length of the tracks.
+
 # Results
 
 <div align="center">
