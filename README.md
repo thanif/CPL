@@ -61,17 +61,17 @@ xcam, ycam, zcam are computed as follows:
 
 xcam = (focal_length * x) / disparity_value
  
-ycam = - (xcam / focal_length) * (5 - center_x)
+ycam = - (xcam / focal_length) * (5 - U0)
                 
-zcam = (xcam / focal_length) * (center_y - 5)
+zcam = (xcam / focal_length) * (V0 - 5)
 
 xworld, yworld, zworld are computed as follows:
 
-yWorld = ycam + y
+yworld = ycam + y
 
-xWorld = xcam * math.cos(p) + zcam*math.sin(p) + x
+xworld = xcam * math.cos(pitch) + zcam * math.sin(pitch) + x
 
-zWorld = - xcam * math.sin(p) + zcam*math.cos(p) + z
+zworld = - xcam * math.sin(pitch) + zcam * math.cos(pitch) + z
 
 # Results
 
