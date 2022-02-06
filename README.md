@@ -35,7 +35,7 @@ Tsinghua-Daimler Dataset (Real Dataset): http://www.gavrila.net/Datasets/Daimler
 
 # CVGL Camera Calibration Dataset
 
-The dataset has been collected using the CARLA Simulator gear server avaialble here: https://drive.google.com/file/d/1X52PXqT0phEi5WEWAISAQYZs-Ivx4VoE/view
+The dataset has been collected using the CARLA Simulator gear server available here: https://drive.google.com/file/d/1X52PXqT0phEi5WEWAISAQYZs-Ivx4VoE/view
 
 The data collector used is availale here: https://github.com/carla-simulator/data-collector
 
