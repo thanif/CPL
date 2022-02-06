@@ -43,7 +43,7 @@ The dataset consists of 48 camera configurations with each town having 24 config
 
 For each episode, there is a file named params.txt containing the following parameters: fov, x, y, z, pitch, yaw, roll.
 
-Focal Length is computed as follows: img_size[0]/(2$*$np.tan(fov$*$np.pi/360))
+Focal Length is computed as follows: img_size[0]/(2 * np.tan(fov * np.pi/360))
 
 U0 and V0 are computed as: img_size[0]/2
 
