@@ -39,7 +39,7 @@ The dataset has been collected using the CARLA Simulator gear server available h
 
 The data collector used is available here: https://github.com/carla-simulator/data-collector
 
-The dataset consists of 49 camera configurations with town 1 having 25 configurations while town 2 aving 24 configurations. The parameters modified for generating the configurations include fov, x, y, z, pitch, yaw, and roll. Here, fov is the field of view, (x, y, z) is the translation while (pitch, yaw, and roll) is the rotation between the cameras. The total number of image pairs is 79,320, out of which 18,083 belong to Town 1 while 61,237 belong to Town 2, the difference in the number of images is due to the length of the tracks.
+The dataset consists of 49 camera configurations with town 1 having 25 configurations while town 2 having 24 configurations. The parameters modified for generating the configurations include fov, x, y, z, pitch, yaw, and roll. Here, fov is the field of view, (x, y, z) is the translation while (pitch, yaw, and roll) is the rotation between the cameras. The total number of image pairs is 79,320, out of which 18,083 belong to Town 1 while 61,237 belong to Town 2, the difference in the number of images is due to the length of the tracks.
 
 For each episode, there is a file named params.txt containing the following parameters: fov, x, y, z, pitch, yaw, roll.
 
