@@ -75,10 +75,16 @@ xworld = xcam * math.cos(pitch) + zcam * math.sin(pitch) + x
 
 zworld = - xcam * math.sin(pitch) + zcam * math.cos(pitch) + z
 
-# Results
+# Results from Camera Calibration through Camera Projection Loss
 
 <div align="center">
     <img src="Results/results.png" </img> 
+</div>
+
+# Results from  Multi-task Learning for Camera Calibration
+
+<div align="center">
+    <img src="Results/results_2.jpg" </img> 
 </div>
 
 Some related articles are as follows:
