@@ -1,6 +1,10 @@
-# Camera-Calibration-through-Camera-Projection-Loss
+# Camera-Calibration-through-Camera-Projection-Loss and  Multi-task-Learning-for-Camera-Calibration
 
-Implementation of the paper "Camera Calibration through Camera Projection Loss": https://arxiv.org/pdf/2110.03479.pdf
+This repository contains code  for a conference and a journal paper
+
+Conference: Camera-Calibration-through-Camera-Projection-Loss, https://arxiv.org/pdf/2110.03479.pdf
+
+Journal: Multi-task-Learning-for-Camera-Calibration
 
 Camera calibration is a necessity in various tasks including 3D reconstruction, hand-eye coordination for a robotic interaction, autonomous driving, etc. In this work we propose a novel method to predict extrinsic (baseline, pitch, and translation), intrinsic (focal length and principal point offset) parameters using an image pair. Unlike existing methods, instead of designing an end-to-end solution, we proposed a new representation that incorporates camera model equations as a
 neural network in multi-task learning framework. We estimate the desired parameters via novel camera projection loss (CPL) that uses the camera model neural network to reconstruct the 3D points and uses the reconstruction loss to estimate the camera parameters. To the best of our knowledge, ours is the first method to jointly estimate both the intrinsic and extrinsic parameters via a multi-task learning methodology that combines analytical equations in learning framework
@@ -117,7 +121,7 @@ CVGL Camera Calibration Dataset: https://thanifbutt.medium.com/fast-lums-camera-
 
 Camera Calibration through Camera Projection Loss: https://thanifbutt.medium.com/camera-calibration-through-camera-projection-loss-e704ae6dbb29
 
-# Citation
+# Citation for Camera Calibration through Camera Projection Loss
 
 ```
 @article{butt2021camera,
