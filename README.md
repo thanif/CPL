@@ -6,7 +6,7 @@ Camera calibration is a necessity in various tasks including 3D reconstruction, 
 neural network in multi-task learning framework. We estimate the desired parameters via novel camera projection loss (CPL) that uses the camera model neural network to reconstruct the 3D points and uses the reconstruction loss to estimate the camera parameters. To the best of our knowledge, ours is the first method to jointly estimate both the intrinsic and extrinsic parameters via a multi-task learning methodology that combines analytical equations in learning framework
 for the estimation of camera parameters. We also proposed a novel CVGL Camera Calibration dataset using CARLA Simulator. Empirically, we demonstrate that our proposed approach achieves better performance with respect to both deep learning-based and traditional methods on 8 out of 10 parameters evaluated using both synthetic and real data.
 
-# Code
+# Code for Camera  Calibration through Camera Projection Loss
 
 Data_Preparation/data_preparation.ipynb converts the actual data into npy format used for experiments.
 
@@ -15,7 +15,17 @@ Data_Preparation/normalization_values.ipynb contains the normalization values us
 Each model has been trained on the CVGL Camera Calibration Dataset while Tsinghua-Daimler Dataset (Real) has been used only for testing. 
 Each folder contains 2 ipython notebooks, one for CVGL Dataset while the other for Tsinghua-Daimler Dataset (Real).
 
-# Weights and Logs
+# Code for Multi-task Learning  for Camera Calibration
+
+## Cityscapes Dataset has been added for evaluation
+
+Data_Preparation/data_preparation_cityscapes.ipynb converts the actual data into npy format used for experiments.
+
+Data_Preparation/normalization_values_cs.ipynb contains the normalization values used for evaluation.
+
+Each folder contains a file ending with cs representing cityscapes dataset
+
+# Weights and Logs for Camera Calibration through Camera Projection Loss
 
 MTL-CPL-A: https://drive.google.com/drive/folders/16zR4Hn21VIgREbCr3AQlAAGMB6rT5rdw?usp=sharing
 
@@ -24,6 +34,10 @@ Deep-Homo: https://drive.google.com/drive/folders/1lrl1ccWgqRyb41rtZOW7CiL0DRA4S
 MTL-Baseline: https://drive.google.com/drive/folders/1riHN9KyYmu06Pxvm7IXTiGGCdonAE5GO?usp=sharing
 
 MTL-CPL-U: https://drive.google.com/drive/folders/1m1UHBzman_XJuF45HLeBHw1R3pbwdTif?usp=sharing
+
+# Weights and Logs for Multi-task Learning for Camera Calibration
+
+All the  weights are availale here: https://drive.google.com/drive/folders/1IJpjBnRmH_MXEsdFk6FYvU3guIrBehoG?usp=share_link
 
 # Datasets
 
