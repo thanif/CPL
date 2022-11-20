@@ -47,7 +47,15 @@ CVGL Camera Calibration Dataset format used for experiments: https://drive.googl
 
 Tsinghua-Daimler Dataset (Real Dataset): http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html
 
+Tsinghua-Daimler Dataset format used for experiments: https://drive.google.com/drive/folders/1ScuaGjZSXslYPkFzGJMLzTze5QScvMKA?usp=sharing
+
+Each file ending with r represents Tsinghua-Daimler Dataset
+
 Cityscapes Dataset (Real Dataset): https://www.cityscapes-dataset.com
+
+Cityscapes Dataset format used for experiments: https://drive.google.com/drive/folders/1IJpjBnRmH_MXEsdFk6FYvU3guIrBehoG?usp=share_link
+
+Each file ending with cs represents Cityscapes Dataset
 
 # CVGL Camera Calibration Dataset
 
