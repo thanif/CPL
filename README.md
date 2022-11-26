@@ -131,3 +131,15 @@ Camera Calibration through Camera Projection Loss: https://thanifbutt.medium.com
   year={2021}
 }
 ```
+
+# Citation for Multi-task Learning for Camera Calibration
+
+```
+@article{butt2022multi,
+  title={Multi-task Learning for Camera Calibration},
+  author={Butt, Talha Hanif and Taj, Murtaza},
+  journal={arXiv preprint arXiv:2211.12432},
+  year={2022}
+}
+```
+
