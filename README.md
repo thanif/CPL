@@ -31,17 +31,11 @@ Each folder contains a file ending with cs representing cityscapes dataset
 
 # Weights and Logs for Camera Calibration through Camera Projection Loss
 
-MTL-CPL-A: https://drive.google.com/drive/folders/16zR4Hn21VIgREbCr3AQlAAGMB6rT5rdw?usp=sharing
-
-Deep-Homo: https://drive.google.com/drive/folders/1lrl1ccWgqRyb41rtZOW7CiL0DRA4SsF-?usp=sharing
-
-MTL-Baseline: https://drive.google.com/drive/folders/1riHN9KyYmu06Pxvm7IXTiGGCdonAE5GO?usp=sharing
-
-MTL-CPL-U: https://drive.google.com/drive/folders/1m1UHBzman_XJuF45HLeBHw1R3pbwdTif?usp=sharing
+All weights and  logs are  available here:  https://drive.google.com/drive/folders/1zvahfHx6pJo1x9lU916U9Ocr0_pamZ1r?usp=share_link
 
 # Weights and Logs for Multi-task Learning for Camera Calibration
 
-All the  weights are availale here: https://drive.google.com/drive/folders/1IJpjBnRmH_MXEsdFk6FYvU3guIrBehoG?usp=share_link
+All the  weights are availale here: https://drive.google.com/drive/folders/1cvF7jmqoqrdkCRqThOfpDc-FCLi2_nt5?usp=share_link
 
 # Datasets
 
