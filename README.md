@@ -95,6 +95,27 @@ xworld = xcam * math.cos(pitch) + zcam * math.sin(pitch) + x
 
 zworld = - xcam * math.sin(pitch) + zcam * math.cos(pitch) + z
 
+Left Camera was  constant at the following configuration:
+
+X = 2
+Y = 0
+Z = 1.4
+Pitch = -15
+
+Right Camera Configurations:
+
+FOV with range from 50 to 150
+
+X with range from 2 to 170
+
+Y with range from -5 to 5
+
+Z with range from 1 to 3
+
+Pitch with range from -30 to 30
+
+While making the dataset, we used the values as the difference between left and right camera. e.g. the value for X for first episode is 0.
+
 # Results from Camera Calibration through Camera Projection Loss
 
 <div align="center">
