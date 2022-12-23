@@ -31,33 +31,27 @@ Each folder contains a file ending with cs representing cityscapes dataset
 
 # Weights and Logs for Camera Calibration through Camera Projection Loss
 
-MTL-CPL-A: https://drive.google.com/drive/folders/16zR4Hn21VIgREbCr3AQlAAGMB6rT5rdw?usp=sharing
-
-Deep-Homo: https://drive.google.com/drive/folders/1lrl1ccWgqRyb41rtZOW7CiL0DRA4SsF-?usp=sharing
-
-MTL-Baseline: https://drive.google.com/drive/folders/1riHN9KyYmu06Pxvm7IXTiGGCdonAE5GO?usp=sharing
-
-MTL-CPL-U: https://drive.google.com/drive/folders/1m1UHBzman_XJuF45HLeBHw1R3pbwdTif?usp=sharing
+All weights and  logs are  available here:  https://drive.google.com/drive/folders/1zvahfHx6pJo1x9lU916U9Ocr0_pamZ1r?usp=share_link
 
 # Weights and Logs for Multi-task Learning for Camera Calibration
 
-All the  weights are availale here: https://drive.google.com/drive/folders/1IJpjBnRmH_MXEsdFk6FYvU3guIrBehoG?usp=share_link
+All the  weights are availale here: https://drive.google.com/drive/folders/1cvF7jmqoqrdkCRqThOfpDc-FCLi2_nt5?usp=share_link
 
 # Datasets
 
 CVGL Camera Calibration Dataset without preprocessing: https://drive.google.com/drive/folders/11e0n1_W59PisKjmED3Ma6MKL8sJWinGZ?usp=sharing
 
-CVGL Camera Calibration Dataset format used for experiments: https://drive.google.com/drive/folders/1ScuaGjZSXslYPkFzGJMLzTze5QScvMKA?usp=sharing
+CVGL Camera Calibration Dataset format used for experiments: https://drive.google.com/drive/folders/1hFhtd6cmcxK5_GjfuzzBa4OAazEzgZwp?usp=share_link
 
 Tsinghua-Daimler Dataset (Real Dataset): http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html
 
-Tsinghua-Daimler Dataset format used for experiments: https://drive.google.com/drive/folders/1ScuaGjZSXslYPkFzGJMLzTze5QScvMKA?usp=sharing
+Tsinghua-Daimler Dataset format used for experiments: https://drive.google.com/drive/folders/1hFhtd6cmcxK5_GjfuzzBa4OAazEzgZwp?usp=share_link
 
 Each file name ending with r represents Tsinghua-Daimler Dataset
 
 Cityscapes Dataset (Real Dataset): https://www.cityscapes-dataset.com
 
-Cityscapes Dataset format used for experiments: https://drive.google.com/drive/folders/1IJpjBnRmH_MXEsdFk6FYvU3guIrBehoG?usp=share_link
+Cityscapes Dataset format used for experiments: https://drive.google.com/drive/folders/1hFhtd6cmcxK5_GjfuzzBa4OAazEzgZwp?usp=share_link
 
 Each file name ending with cs represents Cityscapes Dataset
 
@@ -67,7 +61,7 @@ The dataset has been collected using the CARLA Simulator gear server available h
 
 The data collector used is available here: https://github.com/carla-simulator/data-collector
 
-The dataset consists of 49 camera configurations with town 1 having 25 configurations while town 2 having 24 configurations. The parameters modified for generating the configurations include fov, x, y, z, pitch, yaw, and roll. Here, fov is the field of view, (x, y, z) is the translation while (pitch, yaw, and roll) is the rotation between the cameras. The total number of image pairs is 79,320, out of which 18,083 belong to Town 1 while 61,237 belong to Town 2, the difference in the number of images is due to the length of the tracks.
+The dataset consists of 50 camera configurations with each town having 25 configurations. The parameters modified for generating the configurations include f ov, x, y, z, pitch, yaw, and roll. Here, f ov is the field of view, (x, y, z) is the translation while (pitch, yaw, and roll) is the rotation between the cameras. The total number of image pairs is 1,23,017, out of which 58,596 belong to Town 1 while 64,421 belong to Town 2, the difference in the number of images is due to the length of the tracks.
 
 For each episode, there is a file named params.txt containing the following parameters: fov, x, y, z, pitch, yaw, roll.
 
