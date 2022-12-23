@@ -95,7 +95,7 @@ xworld = xcam * math.cos(pitch) + zcam * math.sin(pitch) + x
 
 zworld = - xcam * math.sin(pitch) + zcam * math.cos(pitch) + z
 
-Left Camera was  constant at the following configuration:
+Left Camera was  constant with the following configuration:
 
 X = 2
 
