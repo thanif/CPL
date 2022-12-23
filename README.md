@@ -98,8 +98,11 @@ zworld = - xcam * math.sin(pitch) + zcam * math.cos(pitch) + z
 Left Camera was  constant at the following configuration:
 
 X = 2
+
 Y = 0
+
 Z = 1.4
+
 Pitch = -15
 
 Right Camera Configurations:
