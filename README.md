@@ -29,29 +29,20 @@ Data_Preparation/normalization_values_cs.ipynb contains the normalization values
 
 Each folder contains a file ending with cs representing cityscapes dataset
 
-# Weights and Logs for Camera Calibration through Camera Projection Loss
+# Weights for Camera Calibration through Camera Projection Loss
 
-All weights and  logs are  available here:  https://drive.google.com/drive/folders/1zvahfHx6pJo1x9lU916U9Ocr0_pamZ1r?usp=share_link
+All weights are  available here:  https://drive.google.com/drive/folders/1wYDCMrJVgWAy3lJEGQsakYLUjYDl7i9s?usp=sharing
 
-# Weights and Logs for Multi-task Learning for Camera Calibration
-
-All the  weights are availale here: https://drive.google.com/drive/folders/1cvF7jmqoqrdkCRqThOfpDc-FCLi2_nt5?usp=share_link
 
 # Datasets
 
-CVGL Camera Calibration Dataset without preprocessing: https://drive.google.com/drive/folders/1Y7B-6ifXiVao4p0HXC5wBBQOevSOZ8ps?usp=share_link
-
-CVGL Camera Calibration Dataset format used for experiments: https://drive.google.com/drive/folders/1hFhtd6cmcxK5_GjfuzzBa4OAazEzgZwp?usp=share_link
-
-Tsinghua-Daimler Dataset (Real Dataset): http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html
-
-Tsinghua-Daimler Dataset format used for experiments: https://drive.google.com/drive/folders/1hFhtd6cmcxK5_GjfuzzBa4OAazEzgZwp?usp=share_link
-
-Each file name ending with r represents Tsinghua-Daimler Dataset
+CVGL Camera Calibration Dataset (Updated Dataset V2):
+https://drive.google.com/drive/folders/1Zd4FPVq4xNU_MKz-gTxKtjj2axgH3IQ6?usp=drive_link
 
 Cityscapes Dataset (Real Dataset): https://www.cityscapes-dataset.com
 
-Cityscapes Dataset format used for experiments: https://drive.google.com/drive/folders/1hFhtd6cmcxK5_GjfuzzBa4OAazEzgZwp?usp=share_link
+Cityscapes Dataset format used for experiments:
+https://drive.google.com/drive/folders/1Pe1nHpUe6PPtMpQpum-oKuD4v_aYXdfc?usp=drive_link
 
 Each file name ending with cs represents Cityscapes Dataset
 
@@ -123,6 +114,10 @@ While making the dataset, we used the values as the difference between left and 
 
 <div align="center">
     <img src="Results/results.png" </img> 
+</div>
+
+<div align="center">
+    <img src="Results/results_updated.png" </img> 
 </div>
 
 # Results from  Multi-task Learning for Camera Calibration
