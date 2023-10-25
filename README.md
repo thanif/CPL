@@ -117,7 +117,7 @@ While making the dataset, we used the values as the difference between left and 
 </div>
 
 <div align="center">
-    <img src="Results/results_updated.png" </img> 
+    <img src="Results/results_updated2.png" </img> 
 </div>
 
 # Results from  Multi-task Learning for Camera Calibration
