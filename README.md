@@ -29,22 +29,9 @@ Data_Preparation/normalization_values_cs.ipynb contains the normalization values
 
 Each folder contains a file ending with cs representing cityscapes dataset
 
-# Weights for Camera Calibration through Camera Projection Loss
+# Dataset and Weights for Camera Calibration through Camera Projection Loss
+The updated dataset and results are available here : https://github.com/CVLABLUMS/CVGL-Camera-Calibration
 
-All weights are  available here:  https://drive.google.com/drive/folders/1wYDCMrJVgWAy3lJEGQsakYLUjYDl7i9s?usp=sharing
-
-
-# Datasets
-
-CVGL Camera Calibration Dataset (Updated Dataset V2):
-https://drive.google.com/drive/folders/1Zd4FPVq4xNU_MKz-gTxKtjj2axgH3IQ6?usp=drive_link
-
-Cityscapes Dataset (Real Dataset): https://www.cityscapes-dataset.com
-
-Cityscapes Dataset format used for experiments:
-https://drive.google.com/drive/folders/1Pe1nHpUe6PPtMpQpum-oKuD4v_aYXdfc?usp=drive_link
-
-Each file name ending with cs represents Cityscapes Dataset
 
 # CVGL Camera Calibration Dataset
 
@@ -114,10 +101,6 @@ While making the dataset, we used the values as the difference between left and 
 
 <div align="center">
     <img src="Results/results.png" </img> 
-</div>
-
-<div align="center">
-    <img src="Results/results_updated2.png" </img> 
 </div>
 
 # Results from  Multi-task Learning for Camera Calibration
